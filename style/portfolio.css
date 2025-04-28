@@ -235,7 +235,7 @@ main section {
 footer {
     background-color: #FFF8F3;
     height: 780px;
-    padding: 130px 130px;
+    padding: 20px 150px;
 }
 
 footer h2 {
@@ -308,10 +308,6 @@ textarea {
 
     nav>h3 {
         padding-right: 72px;
-    }
-
-    .btn-primary {
-        margin: 20px;
     }
 
     .banner {
