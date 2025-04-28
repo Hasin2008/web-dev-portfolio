@@ -104,7 +104,7 @@ nav li a {
 }
 
 .banner-content {
-    max-width: 580px;
+    max-width: 700px;
 }
 
 .banner .banner-greetings {
@@ -124,10 +124,17 @@ nav li a {
     margin-bottom: 32px;
 }
 
+.banner .btn-primary{
+margin-left: 20px;
+}
+
+.banner .btn-primary-2 {
+    margin-top: 10px;
+}
+
 .banner-profile-pic {
     width: 580px;
 }
-
 
 /* main styles */
 main {
@@ -167,7 +174,6 @@ main section {
 }
 
 .skills .section-description {
-    width: 100%;
     height: 90px;
     padding: 0px 130px;
 }
@@ -290,25 +296,31 @@ textarea {
     .banner,
     .footer-content,
     nav,
-    nav > ul,
+    nav>ul,
     .about-items {
         flex-direction: column;
     }
 
-    nav > ul{
+    nav>ul {
         gap: 20px;
+        padding-right: 72px;
     }
 
-    .btn-primary{
+    nav>h3 {
+        padding-right: 72px;
+    }
+
+    .btn-primary {
         margin: 20px;
     }
-    
+
     .banner {
         margin: 20px;
     }
 
     .banner-profile-pic {
         width: 100%;
+        margin-top: 72px;
     }
 
     .header {
@@ -319,6 +331,10 @@ textarea {
     .about,
     .skills .section-description {
         padding: 20px;
+    }
+
+    .footer-content .form {
+        padding: 0 28px;
     }
 
     .footer-content p {
