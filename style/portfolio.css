@@ -124,8 +124,8 @@ nav li a {
     margin-bottom: 32px;
 }
 
-.banner .btn-primary{
-margin-left: 20px;
+.banner .btn-primary {
+    margin-left: 20px;
 }
 
 .banner .btn-primary-2 {
@@ -291,13 +291,13 @@ textarea {
 
 @media screen and (max-width: 576px) {
 
-    .skills-container,
-    .resume-container,
-    .banner,
-    .footer-content,
     nav,
     nav>ul,
-    .about-items {
+    .banner,
+    .about-items,
+    .skills-container,
+    .resume-container,
+    .footer-content {
         flex-direction: column;
     }
 
@@ -323,22 +323,22 @@ textarea {
         background-image: none;
     }
 
-    footer,
     .about,
-    .skills .section-description {
+    .skills .section-description,
+    footer {
         padding: 20px;
     }
 
+    .skills-container {
+        padding-top: 80px;
+    }
+    
     .footer-content .form {
         padding: 0 28px;
     }
 
     .footer-content p {
         width: 100%;
-    }
-
-    .skills-container {
-        padding-top: 80px;
     }
 
     .contact input[type="text"],
